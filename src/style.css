@@ -1,0 +1,167 @@
+#OfferS {
+    display:block;
+  font-size: x-large;
+}
+.offerS{
+    margin:5px 10px 10px 10px;
+   padding: 4px;
+    width:144px;
+    height:120px ;
+  flex-flow:column nowrap;
+  font-size:70%;
+    border:1px solid whitesmoke;
+    border-radius:2px;
+    box-shadow:1px 1px 1px 1px rgb(196, 195, 195);
+   overflow: hidden;
+    background-color: white;
+    
+}
+.offerS a{
+    font-size: 75%;
+    text-decoration: none;
+}
+
+#sub-box ul {
+    font-family: arial,sans-serif;
+    font-size: 90%;
+    text-align: justify;
+}
+.checked{
+    color: orange;
+}
+
+h2{font-size: 1.65em;}
+
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+  }
+  
+  .middle {
+    margin-top:6px;
+    float: left;
+    width: 70%;
+  }
+  
+ 
+  .right {
+    text-align: right;
+  }
+  
+  
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5 {width: 50%; height: 18px; background-color: orange;}
+  .bar-4 {width: 23%; height: 18px; background-color: orange;}
+  .bar-3 {width: 12%; height: 18px; background-color: orange;}
+  .bar-2 {width: 9.3%; height: 18px; background-color: orange;}
+  .bar-1 {width: 2.5%; height: 18px; background-color: orange;}
+
+  #table2 {
+    font-size: 82%;
+    text-align: justify;
+  
+  }
+  #table2 td , #table2 tr{
+    border:3px solid transparent;
+    border-collapse: collapse;
+    
+  }
+  #table2 td:first-of-type{
+width: 45%;
+  }
+.user-img {
+    float: left;
+}
+.opacity {
+    opacity: 0.6;
+    font-size: 95%;
+}
+#table1,
+#table1 tr,
+#table1 td {
+border : 1px solid black;
+border-collapse: collapse;/*Seperate ke saath alag alag cell dikhta hai , but collapse ke saath spacing nhi aati*/
+padding:6px;
+border-spacing: 3px;
+}
+caption {
+text-align: left;
+}
+#table1 td:first-of-type{
+background-color: rgba(202, 202, 202, 0.719);
+}
+.main-headgear{
+    display: grid;
+   grid-template-columns:300px 900px; 
+    grid-auto-rows: 620px;
+    row-gap: 8px;
+    column-gap: 7px;    
+    
+}
+.id1 {
+    background-color: transparent;
+    padding: 15px;
+
+}
+#img ,#offer{
+    border:1px solid rgba(128, 128, 128, 0.676);
+}
+#img img {
+    width: 280px;
+    height: auto;
+}
+#second{
+    display: grid;
+    grid-template-rows: 100px 400px 150px;
+    row-gap: 5px;
+    
+}
+#sub-box{
+    display: grid;
+    grid-template-columns: 710px 230px;
+    column-gap: 10px;
+}
+.disc {
+    font-size: 150%;
+    color: red;
+}
+.rate {
+    font-size: 200%;
+}
+.mrp {
+    text-decoration: line-through;
+}
+#sub-box p {
+    font-size: 90%;
+    opacity: 0.8;
+}
+#add-to-Cart {
+  width: 180px;
+  height: 35px;
+  float: right;
+  border: 1px solid black;
+  /* font-weight: bold; */
+  background-color: rgb(255, 182, 46);
+  border-radius: 50px;
+  cursor: pointer;
+}
+#add-to-Cart:hover {
+  font-size: 105%;
+  color: red;
+
+}

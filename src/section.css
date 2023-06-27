@@ -1,0 +1,123 @@
+.main {
+    display:flex;
+    flex-flow: row nowrap ;
+    opacity: 1 !important;
+    
+}
+.main-section {
+    background-color: rgba(250, 247, 247, 0.532);
+    /* z-index: 9; */
+    width: 1250px;
+}
+.photo1{
+    margin:-150px 13px 200px 5px;
+    display:flex;
+    width:33%;
+    height:400px ;
+  flex-flow:column nowrap;
+  font-size:100%;   
+    border:2px solid rgb(218, 218, 218);
+    border-radius:2px;
+    /* box-shadow:4px 4px 4px 4px rgba(56, 158, 242, 0.116); */
+    font-weight:530;
+    background-color: rgba(255, 255, 255);
+    z-index:9;
+    
+}
+/* #button1 {
+    width:69%;
+   margin:13px 0px 0px 30px;
+    text-align:center;
+    border:1px solid grey;
+    background-color: grey;
+    color:white;
+    display:inline-block;
+    padding:6px;
+    border-radius: 2px;
+
+} */
+#photo2 img{
+    display: inline-block;  
+    margin:0 4px 8px 5px;
+    width:47%;
+    height: 55%;
+}
+ #photo3 img {
+    display: inline-block;  
+    margin:0 4px 8px 5px;
+    width:47%;
+    height: 37%;
+}
+
+ #photo4 img {
+    display: inline-block;  
+    margin:0 4px 8px 5px;
+    width:47%;
+    height: 52%;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* ====Slide show type Catalog===== */
+
+
+
+.slide-catalog {
+    position: relative;
+    margin:-150px 13px 0px 5px;
+    display:flex;
+    width: 1248px;
+    /* height: 50%; */
+    border:2px solid rgb(218, 218, 218);
+    border-radius:2px;
+    /* box-shadow:4px 4px 4px 4px rgba(56, 158, 242, 0.116); */
+    background-color: rgba(255, 255, 255);
+    /* padding: 20px; */
+    /* box-sizing: border-box; */
+}
+.slide-catalog_img img{
+    height:100%;
+    /* margin:0 8px; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+.slide-catalog_img {
+    margin: 10px;
+    background-color: rgb(199, 199, 199);
+    box-sizing: border-box;
+height: 80%;
+display: none;
+/* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+/*   
+  .slide-catalog_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  } */
+  
+  .slide-catalog_img.active {
+    display: block;
+  }
+  
+.prev,.next {
+    color: rgba(0, 0, 0, 0.642);
+    height: 100px;
+}
+  
+  .prev {
+    left: 0px;
+  }
+  
+  .next {
+        right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 6.1px;
+  }
+  

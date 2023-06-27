@@ -1,0 +1,42 @@
+.slideshow-container {
+    position: relative;
+    width: 1248px;
+    height: 400px; /* Adjust the height as needed */
+    margin: auto;
+  }
+  
+  .slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:auto;
+    height: 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+.prev,.next {
+    color: rgba(0, 0, 0, 0.642);
+    height: 100px;
+}
+  
+  .prev {
+    left: 0px;
+  }
+  
+  .next {
+        right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 6.1px;
+  }
+  
